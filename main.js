@@ -148,7 +148,7 @@ document.addEventListener('keypress', function(e){
   }
 
   if (e.key.toLowerCase() == 'b'){
-    net = new brain.NeuralNetwork();
+    net = new brain.NeuroNetwork();
     net.train(train_data, {log: true});
 
     const result = brain.likely(d.calculate(), net);
