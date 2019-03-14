@@ -1,4 +1,4 @@
-# JS_neural_net
+# JS_neuro_net
 Simple neuro network on JavaScript with using brain.js. This network can distinguish between two pictures. 
 The more pictures you draw, the more accurate the neuro network response will be.
 
